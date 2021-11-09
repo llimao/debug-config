@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch file",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/cmd/api/main.go",
+            "env": {
+                "SCOPE": "local",
+                "ELASTICSEARCH_URL":"http://localhost:9200",
+                "DB_MYSQL_LOCAL_PASSWD":"root",
+                "DB_MYSQL_LOCAL_ENDPOINT":"localhost:3307",
+                "FURY_TOKEN": "3a8a849518506c4cd169a016c1e7d7acefd7b0aef99c207f62f688d3b5e2cb35"
+                // "DOCUMENT_SEARCH_RESERVATION_DS_ENTITY": "reservation_ds__reservation_service",
+            },
+        },
+    ]
+}
