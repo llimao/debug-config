@@ -12,7 +12,7 @@
                 "ELASTICSEARCH_URL":"http://localhost:9200",
                 "DB_MYSQL_LOCAL_PASSWD":"root",
                 "DB_MYSQL_LOCAL_ENDPOINT":"localhost:3307",
-                "configFileName": "../../resources/configuration.properties",
+                "configFileName": "../../internal/config/test.properties",
                 "FURY_TOKEN": "3a8a849518506c4cd169a016c1e7d7acefd7b0aef99c207f62f688d3b5e2cb35"
                 // "DOCUMENT_SEARCH_RESERVATION_DS_ENTITY": "reservation_ds__reservation_service",
             },
